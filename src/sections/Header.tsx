@@ -44,7 +44,7 @@ export function Header({ isScrolled }: HeaderProps) {
               className="flex items-center gap-2"
             >
               <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                <span className="text-blue-900 font-bold text-lg">R&P</span>
+                <span className="text-blue-900 font-bold text-lg">SL</span>
               </div>
               <span className="text-white font-bold text-xl hidden sm:block">
                 Roofing

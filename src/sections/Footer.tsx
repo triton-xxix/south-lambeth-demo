@@ -20,11 +20,11 @@ const services = [
 
 const areas = [
   'South Lambeth',
-  'Sydenham',
-  'Dulwich',
-  'Crystal Palace',
-  'Penge',
-  'Anerley',
+  'Vauxhall',
+  'Stockwell',
+  'Oval',
+  'Kennington',
+  'Pimlico',
 ];
 
 export function Footer() {
@@ -46,7 +46,7 @@ export function Footer() {
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                  <span className="text-slate-900 font-bold text-lg">R&P</span>
+                  <span className="text-slate-900 font-bold text-lg">SL</span>
                 </div>
                 <span className="font-bold text-xl">Roofing</span>
               </div>
@@ -132,7 +132,7 @@ export function Footer() {
                 </li>
                 <li className="flex items-center gap-2 text-slate-400">
                   <Mail className="w-4 h-4" />
-                  <span>info@rproofing.co.uk</span>
+                  <span>info@southlambethroofing.co.uk</span>
                 </li>
               </ul>
 
