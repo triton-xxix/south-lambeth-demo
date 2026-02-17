@@ -155,7 +155,7 @@ export function Services() {
                 </p>
                 <a
                   href="tel:07832767092"
-                  className="inline-flex items-center text-blue-700 font-semibold hover:text-amber-500 transition-colors"
+                  className="inline-flex items-center text-blue-700 font-semibold hover:text-orange-500 transition-colors"
                 >
                   <Phone className="w-4 h-4 mr-2" />
                   Call Now

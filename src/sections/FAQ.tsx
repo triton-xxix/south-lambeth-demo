@@ -156,7 +156,7 @@ export function FAQ() {
           </p>
           <a
             href="tel:07832767092"
-            className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-amber-500 transition-colors"
+            className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-orange-500 transition-colors"
           >
             Call us on 07832 767092
           </a>

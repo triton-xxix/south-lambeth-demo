@@ -28,7 +28,7 @@ export function Header({ isScrolled }: HeaderProps) {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-blue-800/95 backdrop-blur-md shadow-lg'
+            ? 'bg-green-800/95 backdrop-blur-md shadow-lg'
             : 'bg-transparent'
         }`}
       >
@@ -43,8 +43,8 @@ export function Header({ isScrolled }: HeaderProps) {
               }}
               className="flex items-center gap-2"
             >
-              <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                <span className="text-blue-900 font-bold text-lg">SL</span>
+              <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
+                <span className="text-green-900 font-bold text-lg">SL</span>
               </div>
               <span className="text-white font-bold text-xl hidden sm:block">
                 Roofing
@@ -68,7 +68,7 @@ export function Header({ isScrolled }: HeaderProps) {
             <div className="hidden lg:flex items-center gap-4">
               <a
                 href="tel:07832767092"
-                className="flex items-center gap-2 text-white font-semibold hover:text-amber-400 transition-colors"
+                className="flex items-center gap-2 text-white font-semibold hover:text-orange-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 <span>07832 767092</span>
@@ -99,20 +99,20 @@ export function Header({ isScrolled }: HeaderProps) {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-blue-900 lg:hidden">
+        <div className="fixed inset-0 z-40 bg-green-900 lg:hidden">
           <div className="flex flex-col items-center justify-center h-full gap-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-white text-2xl font-semibold hover:text-amber-400 transition-colors"
+                className="text-white text-2xl font-semibold hover:text-orange-400 transition-colors"
               >
                 {item.label}
               </button>
             ))}
             <a
               href="tel:07832767092"
-              className="flex items-center gap-3 text-amber-400 text-xl font-bold mt-4"
+              className="flex items-center gap-3 text-orange-400 text-xl font-bold mt-4"
             >
               <Phone className="w-6 h-6" />
               <span>07832 767092</span>

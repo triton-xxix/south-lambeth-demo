@@ -102,7 +102,7 @@ export function About() {
     <section
       ref={sectionRef}
       id="about"
-      className="relative py-20 lg:py-0 lg:min-h-screen bg-blue-800 overflow-hidden"
+      className="relative py-20 lg:py-0 lg:min-h-screen bg-green-800 overflow-hidden"
     >
       <div className="lg:grid lg:grid-cols-2 lg:min-h-screen">
         {/* Left Content */}
@@ -111,12 +111,12 @@ export function About() {
           className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-12 py-12 lg:py-20"
         >
           <div className="max-w-xl">
-            <span className="animate-item inline-block text-sm font-semibold text-amber-400 uppercase tracking-widest mb-3">
+            <span className="animate-item inline-block text-sm font-semibold text-orange-400 uppercase tracking-widest mb-3">
               About Us
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               Why Homeowners Choose{' '}
-              <span className="text-amber-400">South Lambeth Roofing</span>
+              <span className="text-orange-400">South Lambeth Roofing</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
               We're based in South Lambeth (SW8) and serve homeowners across
@@ -132,8 +132,8 @@ export function About() {
                   key={index}
                   className="cred-item flex items-start gap-3 bg-white/10 rounded-xl p-4 backdrop-blur-sm"
                 >
-                  <div className="w-10 h-10 bg-amber-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <cred.icon className="w-5 h-5 text-amber-400" />
+                  <div className="w-10 h-10 bg-orange-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <cred.icon className="w-5 h-5 text-orange-400" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white text-sm">
@@ -148,7 +148,7 @@ export function About() {
             </div>
 
             {/* CTA Banner */}
-            <div className="animate-item bg-amber-500 rounded-2xl p-6">
+            <div className="animate-item bg-orange-500 rounded-2xl p-6">
               <p className="text-slate-900 font-semibold mb-2">
                 Need help fast?
               </p>
@@ -173,13 +173,13 @@ export function About() {
             alt="South Lambeth Roofing team at work in South Lambeth"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-800/50 to-transparent lg:bg-gradient-to-l" />
           
           {/* Stats Overlay */}
           <div className="absolute bottom-6 left-6 right-6 lg:bottom-12 lg:left-12 lg:right-12">
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-amber-400">
+                <div className="text-2xl lg:text-3xl font-bold text-orange-400">
                   5.0★
                 </div>
                 <div className="text-white/80 text-xs lg:text-sm">
@@ -187,7 +187,7 @@ export function About() {
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-amber-400">
+                <div className="text-2xl lg:text-3xl font-bold text-orange-400">
                   27+
                 </div>
                 <div className="text-white/80 text-xs lg:text-sm">
@@ -195,7 +195,7 @@ export function About() {
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-amber-400">
+                <div className="text-2xl lg:text-3xl font-bold text-orange-400">
                   SW8
                 </div>
                 <div className="text-white/80 text-xs lg:text-sm">

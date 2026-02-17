@@ -128,7 +128,7 @@ export function Contact() {
     <section
       ref={sectionRef}
       id="contact"
-      className="relative py-20 lg:py-0 lg:min-h-screen bg-blue-800 overflow-hidden"
+      className="relative py-20 lg:py-0 lg:min-h-screen bg-green-800 overflow-hidden"
     >
       <div className="lg:grid lg:grid-cols-2 lg:min-h-screen">
         {/* Left Content */}
@@ -137,12 +137,12 @@ export function Contact() {
           className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-12 py-12 lg:py-20"
         >
           <div className="max-w-xl">
-            <span className="animate-item inline-block text-sm font-semibold text-amber-400 uppercase tracking-widest mb-3">
+            <span className="animate-item inline-block text-sm font-semibold text-orange-400 uppercase tracking-widest mb-3">
               Contact Us
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
               Get Your{' '}
-              <span className="text-amber-400">Free Quote</span>
+              <span className="text-orange-400">Free Quote</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
               Tell us what you need. We'll reply within one business day.
@@ -154,7 +154,7 @@ export function Contact() {
                 href="tel:07832767092"
                 className="flex items-center gap-3 bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors"
               >
-                <div className="w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center">
                   <Phone className="w-6 h-6 text-slate-900" />
                 </div>
                 <div>
@@ -163,8 +163,8 @@ export function Contact() {
                 </div>
               </a>
               <div className="flex items-center gap-3 bg-white/10 rounded-xl p-4">
-                <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-amber-400" />
+                <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center">
+                  <MapPin className="w-6 h-6 text-orange-400" />
                 </div>
                 <div>
                   <p className="text-white/70 text-sm">Visit us</p>
@@ -178,7 +178,7 @@ export function Contact() {
             {/* Form */}
             {isSubmitted ? (
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 text-center border border-white/20">
-                <div className="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-slate-900" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">
@@ -194,28 +194,28 @@ export function Contact() {
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="form-field">
                     <label className="block text-white/80 text-sm mb-1.5">
-                      Name <span className="text-amber-400">*</span>
+                      Name <span className="text-orange-400">*</span>
                     </label>
                     <input
                       type="text"
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-orange-400 transition-colors"
                       placeholder="Your name"
                       required
                     />
                   </div>
                   <div className="form-field">
                     <label className="block text-white/80 text-sm mb-1.5">
-                      Phone <span className="text-amber-400">*</span>
+                      Phone <span className="text-orange-400">*</span>
                     </label>
                     <input
                       type="tel"
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-orange-400 transition-colors"
                       placeholder="Your phone number"
                       required
                     />
@@ -231,7 +231,7 @@ export function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-orange-400 transition-colors"
                       placeholder="Your email"
                     />
                   </div>
@@ -244,27 +244,27 @@ export function Contact() {
                       name="postcode"
                       value={formData.postcode}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-orange-400 transition-colors"
                       placeholder="e.g., SW8 3JL"
                     />
                   </div>
                 </div>
                 <div className="form-field">
                   <label className="block text-white/80 text-sm mb-1.5">
-                    Service Needed <span className="text-amber-400">*</span>
+                    Service Needed <span className="text-orange-400">*</span>
                   </label>
                   <select
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:outline-none focus:border-amber-400 transition-colors appearance-none"
+                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:outline-none focus:border-orange-400 transition-colors appearance-none"
                     required
                   >
-                    <option value="" className="bg-blue-800">
+                    <option value="" className="bg-green-800">
                       Select a service
                     </option>
                     {services.map((service, index) => (
-                      <option key={index} value={service} className="bg-blue-800">
+                      <option key={index} value={service} className="bg-green-800">
                         {service}
                       </option>
                     ))}
@@ -279,7 +279,7 @@ export function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors resize-none"
+                    className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-orange-400 transition-colors resize-none"
                     placeholder="Tell us about your roofing needs..."
                   />
                 </div>
@@ -315,13 +315,13 @@ export function Contact() {
             alt="South Lambeth Roofing contact"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-800/50 to-transparent lg:bg-gradient-to-l" />
           
           {/* Trust Badge */}
           <div className="absolute bottom-6 left-6 right-6 lg:bottom-12 lg:left-12 lg:right-12">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-amber-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 bg-orange-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Clock className="w-7 h-7 text-slate-900" />
                 </div>
                 <div>

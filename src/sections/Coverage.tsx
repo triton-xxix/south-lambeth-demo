@@ -94,7 +94,7 @@ export function Coverage() {
     <section
       ref={sectionRef}
       id="coverage"
-      className="relative py-20 lg:py-0 lg:min-h-screen bg-blue-800 overflow-hidden"
+      className="relative py-20 lg:py-0 lg:min-h-screen bg-green-800 overflow-hidden"
     >
       <div className="lg:grid lg:grid-cols-2 lg:min-h-screen">
         {/* Left Content */}
@@ -103,12 +103,12 @@ export function Coverage() {
           className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-12 py-12 lg:py-20"
         >
           <div className="max-w-xl">
-            <span className="animate-item inline-block text-sm font-semibold text-amber-400 uppercase tracking-widest mb-3">
+            <span className="animate-item inline-block text-sm font-semibold text-orange-400 uppercase tracking-widest mb-3">
               Coverage Area
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               We Cover{' '}
-              <span className="text-amber-400">South East London</span>
+              <span className="text-orange-400">South East London</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
               Based in South Lambeth (SW8), we're never far away. We travel
@@ -123,7 +123,7 @@ export function Coverage() {
                   key={index}
                   className="area-chip flex items-center gap-1.5 bg-white/10 hover:bg-white/20 rounded-full px-4 py-2 backdrop-blur-sm transition-colors"
                 >
-                  <MapPin className="w-4 h-4 text-amber-400" />
+                  <MapPin className="w-4 h-4 text-orange-400" />
                   <span className="text-white font-medium text-sm">{area}</span>
                 </div>
               ))}
@@ -156,13 +156,13 @@ export function Coverage() {
             alt="South Lambeth Roofing coverage area South East London"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />
+          <div className="absolute inset-0 bg-gradient-to-r from-green-800/50 to-transparent lg:bg-gradient-to-l" />
           
           {/* Coverage Badge */}
           <div className="absolute bottom-6 left-6 right-6 lg:bottom-12 lg:left-12 lg:right-12">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-amber-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 bg-orange-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-7 h-7 text-slate-900" />
                 </div>
                 <div>

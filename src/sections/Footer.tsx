@@ -45,7 +45,7 @@ export function Footer() {
             {/* Company Info */}
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
                   <span className="text-slate-900 font-bold text-lg">SL</span>
                 </div>
                 <span className="font-bold text-xl">Roofing</span>
@@ -59,7 +59,7 @@ export function Footer() {
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 fill-amber-400 text-amber-400"
+                      className="w-4 h-4 fill-emerald-400 text-orange-400"
                     />
                   ))}
                 </div>
@@ -87,7 +87,7 @@ export function Footer() {
                   <li key={index}>
                     <button
                       onClick={() => scrollToSection(link.href)}
-                      className="text-slate-400 hover:text-amber-400 transition-colors"
+                      className="text-slate-400 hover:text-orange-400 transition-colors"
                     >
                       {link.label}
                     </button>
@@ -104,7 +104,7 @@ export function Footer() {
                   <li key={index}>
                     <a
                       href="tel:07832767092"
-                      className="text-slate-400 hover:text-amber-400 transition-colors"
+                      className="text-slate-400 hover:text-orange-400 transition-colors"
                     >
                       {service}
                     </a>
@@ -120,7 +120,7 @@ export function Footer() {
                 <li>
                   <a
                     href="tel:07832767092"
-                    className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors"
+                    className="flex items-center gap-2 text-slate-400 hover:text-orange-400 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
                     07832 767092

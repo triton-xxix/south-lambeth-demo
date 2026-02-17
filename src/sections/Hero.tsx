@@ -107,7 +107,7 @@ export function Hero() {
     <section
       ref={heroRef}
       id="hero"
-      className="relative min-h-screen w-full overflow-hidden bg-blue-800"
+      className="relative min-h-screen w-full overflow-hidden bg-green-800"
     >
       {/* Background Image */}
       <div className="hero-bg absolute inset-0">
@@ -138,7 +138,7 @@ export function Hero() {
               {/* Headline */}
               <h1 className="hero-headline text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
                 Trusted Local Roofers in{' '}
-                <span className="text-amber-400">South Lambeth</span>
+                <span className="text-orange-400">South Lambeth</span>
               </h1>
 
               {/* Subheadline */}
@@ -153,7 +153,7 @@ export function Hero() {
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-5 h-5 fill-amber-400 text-amber-400"
+                      className="w-5 h-5 fill-orange-400 text-orange-400"
                     />
                   ))}
                 </div>
@@ -186,8 +186,8 @@ export function Hero() {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-6 h-6 text-amber-400" />
+                  <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-6 h-6 text-orange-400" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Fully Insured</h4>
@@ -197,8 +197,8 @@ export function Hero() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <ClipboardCheck className="w-6 h-6 text-amber-400" />
+                  <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <ClipboardCheck className="w-6 h-6 text-orange-400" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Free Quotes</h4>
@@ -208,8 +208,8 @@ export function Hero() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-amber-400" />
+                  <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-orange-400" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">
@@ -234,7 +234,7 @@ export function Hero() {
             <div className="flex items-center gap-6">
               <a
                 href="tel:07832767092"
-                className="flex items-center gap-2 text-white hover:text-amber-400 transition-colors"
+                className="flex items-center gap-2 text-white hover:text-orange-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 <span className="font-semibold">07832 767092</span>
@@ -246,7 +246,7 @@ export function Hero() {
             </div>
             <button
               onClick={scrollToContact}
-              className="text-amber-400 font-semibold hover:text-amber-300 transition-colors flex items-center gap-1"
+              className="text-orange-400 font-semibold hover:text-amber-300 transition-colors flex items-center gap-1"
             >
               Get Free Quote
               <ArrowRight className="w-4 h-4" />

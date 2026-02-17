@@ -146,7 +146,7 @@ export function Projects() {
         <div className="mt-12 text-center">
           <a
             href="tel:07832767092"
-            className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-amber-500 transition-colors"
+            className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-orange-500 transition-colors"
           >
             View More Projects
             <ArrowRight className="w-5 h-5" />

@@ -110,7 +110,7 @@ export function Process() {
     <section
       ref={sectionRef}
       id="process"
-      className="relative py-20 lg:py-0 lg:min-h-screen bg-blue-800 overflow-hidden"
+      className="relative py-20 lg:py-0 lg:min-h-screen bg-green-800 overflow-hidden"
     >
       <div className="lg:grid lg:grid-cols-2 lg:min-h-screen">
         {/* Left Image */}
@@ -123,7 +123,7 @@ export function Process() {
             alt="Roofer working on roof in South Lambeth"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-l from-blue-800/50 to-transparent lg:bg-gradient-to-r" />
+          <div className="absolute inset-0 bg-gradient-to-l from-green-800/50 to-transparent lg:bg-gradient-to-r" />
         </div>
 
         {/* Right Content */}
@@ -132,11 +132,11 @@ export function Process() {
           className="flex flex-col justify-center px-4 sm:px-6 lg:px-8 xl:px-12 py-12 lg:py-20 order-1 lg:order-2"
         >
           <div className="max-w-xl">
-            <span className="animate-item inline-block text-sm font-semibold text-amber-400 uppercase tracking-widest mb-3">
+            <span className="animate-item inline-block text-sm font-semibold text-orange-400 uppercase tracking-widest mb-3">
               Our Process
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-              How It <span className="text-amber-400">Works</span>
+              How It <span className="text-orange-400">Works</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
               Getting your roof fixed or replaced shouldn't be complicated. Our
@@ -151,13 +151,13 @@ export function Process() {
                   className="step-item flex items-start gap-4 bg-white/10 rounded-2xl p-5 backdrop-blur-sm"
                 >
                   <div className="flex-shrink-0">
-                    <div className="w-14 h-14 bg-amber-500 rounded-xl flex items-center justify-center">
+                    <div className="w-14 h-14 bg-orange-500 rounded-xl flex items-center justify-center">
                       <step.icon className="w-7 h-7 text-slate-900" />
                     </div>
                   </div>
                   <div>
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-amber-400 font-bold text-sm">
+                      <span className="text-orange-400 font-bold text-sm">
                         Step {step.number}
                       </span>
                     </div>
